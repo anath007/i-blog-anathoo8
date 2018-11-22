@@ -10,6 +10,7 @@ var bodyParser = require('body-parser');
 // import URL routes
 var posts = require('./routes/posts');
 var compression = require('compression');
+var helmet = require('helmet');
 var app = express();
 app.use(helmet());
 
